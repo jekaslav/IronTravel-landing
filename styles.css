@@ -29,7 +29,7 @@ body::before {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('main-background/background-1.jpg');
+    background-image: url('optimized/hero-background.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
