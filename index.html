@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ИРОН ТРЭВЕЛ - Туры по Северной Осетии с гидом</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <img src="logos/logo-grey-small.png" alt="ИРОН ТРЭВЕЛ" class="nav-logo">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Главная</a></li>
+                <li><a href="#about">О нас</a></li>
+                <li><a href="#tours">Маршруты</a></li>
+                <li><a href="#guides">Гиды</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#pricing">Стоимость</a></li>
+                <li><a href="#booking">Бронирование</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <div class="hero-buttons">
+                <a href="#tours" class="btn btn-secondary">Выбрать маршрут</a>
+                <a href="#booking" class="btn btn-secondary">Забронировать тур</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about">
+        <div class="container">
+            <h2 class="section-title">О нас</h2>
+            <div class="about-content">
+                <div class="about-image-wrapper">
+                    <img src="logos/logo.png" alt="Ирон Трэвел" class="about-logo">
+                </div>
+                <div class="about-text">
+                    <p><b>ИРОН ТРЭВЕЛ</b> — это ваш проводник в удивительный мир Северной Осетии.</p>
+                    <p>Наши опытные гиды помогут вам познакомиться с богатой культурой, традициями и историей.</p>
+                    <p>Мы предлагаем как готовые программы, так и создаем индивидуальные маршруты под ваши пожелания. Каждый тур сопровождается профессиональным гидом, который покажет вам самые сокровенные уголки республики.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tours" class="section tours">
+        <div class="container">
+            <h2 class="section-title">Наши маршруты</h2>
+            
+            <!-- Тур 1: Золотое кольцо Осетии -->
+            <div class="tour-card">
+                <div class="tour-header">
+                    <h3>1. Золотое кольцо Северной Осетии</h3>
+                    <span class="tour-duration">120-150 км, 7-9 часов</span>
+                </div>
+                <div class="tour-content">
+                    <div class="tour-description">
+                        <h4>Программа тура:</h4>
+                        <ul class="tour-list">
+                            <li>Кармадонское ущелье</li>
+                            <li>Место предполагаемой смерти Сергея Бодрова</li>
+                            <li>Город Мертвых Даргавс</li>
+                            <li>Самый высокий водопад Европы Большой Зейгалан</li>
+                            <li>Арт-объект Буква Æ</li>
+                            <li>Тропа чудес</li>
+                            <li>Качели над пропастью</li>
+                            <li>Аланский успенский монастырь</li>
+                        </ul>
+                    </div>
+                    <div class="tour-image-placeholder">
+                        <div class="carousel-container">
+                            <img src="collages/3UbIkwuUjydG7Ijuyc6opiHxJzbbbwtSqMVWlYMA1JSHETvc47oVLeRexTsTANrN9VsFNK5v9uWPhixxOQ4M_g==.jpeg" alt="Золотое кольцо Осетии" class="tour-image active">
+                            <img src="goldenRing/3UbIkwuUjydG7Ijuyc6oprmJeibwyi41nE1IhvLsXnU4gOK61P5Dmvk9MZJUuQUZ5Sf79Ytq782m3yirFwCJ5w==.jpeg" alt="Золотое кольцо Осетии" class="tour-image">
+                            <img src="goldenRing/3UbIkwuUjydG7Ijuyc6oppRjNGu4C9OKyaFOxOvGT2wOnAhhE1oEyJZovNK8qdX4Gtg4_78GLEzXV1IbAxViIA==.jpeg" alt="Золотое кольцо Осетии" class="tour-image">
+                            <img src="goldenRing/IMG_1346.png" alt="Золотое кольцо Осетии" class="tour-image">
+                            <img src="goldenRing/IMG_5901.png" alt="Золотое кольцо Осетии" class="tour-image">
+                            <img src="goldenRing/IMG_6012.png" alt="Золотое кольцо Осетии" class="tour-image">
+                            <img src="goldenRing/IMG_1263.png" alt="Золотое кольцо Осетии" class="tour-image">
+
+                            <div class="carousel-controls">
+                                <button class="carousel-btn prev" onclick="changeSlide(-1, 0)">‹</button>
+                                <button class="carousel-btn next" onclick="changeSlide(1, 0)">›</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Тур 2: Дигорское ущелье -->
+            <div class="tour-card">
+                <div class="tour-header">
+                    <h3>2. Жемчужина Северной Осетии</h3>
+                    <span class="tour-duration">240-270 км, 9-10 часов</span>
+                </div>
+                <div class="tour-content">
+                    <div class="tour-description">
+                        <h4>Программа тура:</h4>
+                        <ul class="tour-list">
+                            <li>Горная Дигория</li>
+                            <li>Каньон Ахсинта</li>
+                            <li>Чертов мост</li>
+                            <li>Арт-объект Скрипка Хъисын ФÆндыр</li>
+                            <li>Руины бельгийской фабрики</li>
+                            <li>Дигорский колизей</li>
+                            <li>Самое высокогорное селение Камунта</li>
+                            <li>Село Галиат</li>
+                            <li>Верхний Згид</li>
+                            <li>Арт-объект Стрелы Сослана</li>
+                        </ul>
+                    </div>
+                    <div class="tour-image-placeholder">
+                        <div class="carousel-container">
+                            <img src="collages/3UbIkwuUjydG7Ijuyc6opnq1KzxD4xCUseKtK5gsvqAFKCMwSTfqrSEgjcq4G4BnedxnW-swqG9Y6g3qga2kBQ==.jpeg" alt="Индивидуальный тур" class="tour-image active">
+                            <img src="digoriya/IMG_1599.png" alt="Дигория 1" class="tour-image">
+                            <img src="digoriya/IMG_1600.png" alt="Дигория 2" class="tour-image">
+                            <img src="digoriya/vodopad-galdoridon.jpg" alt="Водопад" class="tour-image">
+                            <img src="digoriya/5IAAAgIYa-A-1920.jpg" alt="Дигория 3" class="tour-image">
+                            <img src="digoriya/orig.jpeg" alt="Дигория 4" class="tour-image">
+                            <div class="carousel-controls">
+                                <button class="carousel-btn prev" onclick="changeSlide(-1, 1)">‹</button>
+                                <button class="carousel-btn next" onclick="changeSlide(1, 1)">›</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Тур 3: Цейский ледник -->
+            <div class="tour-card">
+                <div class="tour-header">
+                    <h3>3. Цейское ущелье</h3>
+                    <span class="tour-duration">170-210 км, 8-9 часов</span>
+                </div>
+                <div class="tour-content">
+                    <div class="tour-description">
+                        <h4>Программа тура:</h4>
+                        <ul class="tour-list">
+                            <li>Наскальный памятник Уастырджы</li>
+                            <li>Аланский женский монастырь</li>
+                            <li>Канатная дорога Сказский ледник</li>
+                            <li>Горячие источники Бирагзанг</li>
+                            <li>Арт-объект Рог изобилия</li>
+                        </ul>
+                    </div>
+                    <div class="tour-image-placeholder">
+                        <div class="carousel-container">
+                            <img src="collages/3UbIkwuUjydG7Ijuyc6opiicqfRet3CUVLsjmt157kKw-fnc8zRdB0JjksROqz5uwdxsNNM0-B2VLvruScK16w==.jpeg" alt="Цейский ледник" class="tour-image active">
+                            <img src="cei/3UbIkwuUjydG7Ijuyc6opu8sR0HMeiGraIRLMqAqDUGDaPkUI5IcUCMBN3DVUoS6lxHa6s4g75h1QIzEfVprSQ==.jpeg" alt="Цейский ледник" class="tour-image">
+                            <img src="cei/scale_1200-2.jpeg" alt="Цейский ледник" class="tour-image">
+                            <img src="cei/3UbIkwuUjydG7Ijuyc6opgaX5XKPq33AWdivM3rxOx4BrtKM2veUdTXMal-A25GKea6XRKAjP4b7EAUpjhhmvw==.jpeg" alt="Цейский ледник" class="tour-image">
+                            <img src="cei/-5308028967799863271_121.jpg" alt="Цейский ледник" class="tour-image">
+                            <div class="carousel-controls">
+                                <button class="carousel-btn prev" onclick="changeSlide(-1, 2)">‹</button>
+                                <button class="carousel-btn next" onclick="changeSlide(1, 2)">›</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Тур 4: Индивидуальная программа -->
+            <div class="tour-card">
+                <div class="tour-header">
+                    <h3>4. Индивидуальная программа</h3>
+                    <span class="tour-duration">По договоренности</span>
+                </div>
+                <div class="tour-content">
+                    <div class="tour-description">
+                        <p>Создаем уникальный маршрут специально под ваши интересы, физические возможности и временные рамки. Обсудите с нами ваши пожелания, и мы составим незабываемую программу.</p>
+                    </div>
+                    <div class="tour-image-placeholder">
+                            <img src="individual/IMG_7903.png" alt="Индивидуальный тур" class="tour-image active">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="guides" class="section portfolio">
+        <div class="container">
+            <h2 class="section-title">Гиды</h2>
+            <div class="guide-single">
+                <div class="guide-info">
+                    <h3>Ваш профессиональный гид</h3>
+                    <p class="guide-intro">Ирбег, 35 лет. Опытный краевед и знаток Северной Осетии с многолетним опытом сопровождения: богатые знания истории, культуры и традиций, индивидуальный подход к каждому клиенту.</p>
+                    <blockquote class="guide-quote">
+                        <p>Покажу вам самые красивые и сокровенные места Северной Осетии, расскажу увлекательные истории и легенды, организую незабываемое путешествие по Кавказу.</p>
+                    </blockquote>
+                </div>
+                <div class="guide-photo-wrapper">
+                    <img src="personal/guide-photo.jpg" alt="Гид" class="guide-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="reviews" class="section reviews">
+        <div class="container">
+            <h2 class="section-title">Отзывы наших клиентов</h2>
+            <div class="reviews-stack">
+                <div class="review-card" style="transform: rotate(-6deg) translateY(0); z-index: 6;" onclick="openReviewModal('reviews/review-1.png')">
+                    <img src="reviews/review-1.png" alt="Отзыв 1" class="review-image">
+                </div>
+                <div class="review-card" style="transform: rotate(4deg) translateY(5px); z-index: 5;" onclick="openReviewModal('reviews/review-2.png')">
+                    <img src="reviews/review-2.png" alt="Отзыв 2" class="review-image">
+                </div>
+                <div class="review-card" style="transform: rotate(-3deg) translateY(8px); z-index: 4;" onclick="openReviewModal('reviews/review-3.png')">
+                    <img src="reviews/review-3.png" alt="Отзыв 3" class="review-image">
+                </div>
+                <div class="review-card" style="transform: rotate(5deg) translateY(12px); z-index: 3;" onclick="openReviewModal('reviews/review-4.png')">
+                    <img src="reviews/review-4.png" alt="Отзыв 4" class="review-image">
+                </div>
+                <div class="review-card" style="transform: rotate(-4deg) translateY(15px); z-index: 2;" onclick="openReviewModal('reviews/review-5.png')">
+                    <img src="reviews/review-5.png" alt="Отзыв 5" class="review-image">
+                </div>
+                <div class="review-card" style="transform: rotate(6deg) translateY(18px); z-index: 1;" onclick="openReviewModal('reviews/review-6.png')">
+                    <img src="reviews/review-6.png" alt="Отзыв 6" class="review-image">
+                </div>
+                <div class="review-card" style="transform: rotate(8deg) translateY(22px); z-index: 7;" onclick="openReviewModal('reviews/image.png')">
+                    <img src="reviews/image.png" alt="Отзыв 7" class="review-image">
+                </div>
+            </div>
+            <div class="reviews-link">
+                <a href="https://www.avito.ru/user/2748a03c876569ecd94b89109a393e4c/profile?iid=3965144920&page_from=from_item_messenger&src=messenger&id=3965144920#open-reviews-list" target="_blank" class="btn btn-primary">Посмотреть все отзывы на Авито</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal для увеличения отзывов -->
+    <div id="reviewModal" class="review-modal" onclick="closeReviewModal(event)">
+        <span class="modal-close">&times;</span>
+        <img id="modalImage" src="" alt="Увеличенный отзыв" class="modal-content">
+    </div>
+
+    <section id="pricing" class="section skills">
+        <div class="container">
+            <h2 class="section-title">Стоимость туров</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🏔️</div>
+                    <h3>Золотое кольцо Осетии</h3>
+                    <p>Путешествие по знаковым и доступным достопримечательностям региона: от остатков дороги, разрушенной сходом Колки до Мидаграбинских водопадов.</p>
+                    <div class="skill-price">От 10 000 рублей</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⛰️</div>
+                    <h3>Жемчужина Осетии</h3>
+                    <p>Поездка в Дигорское ущелье Северной Осетии, где живописные места и красивые пейзажи встречаются на каждом шагу.</p>
+                    <div class="skill-price">От 15 000 рублей</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗻</div>
+                    <h3>Цейское ущелье Осетии</h3>
+                    <p>Горное путешествие по Цейскому ущелью с посещением Сказского ледника и природных достопримечательностей.</p>
+                    <div class="skill-price">От 12 000 рублей</div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⭐</div>
+                    <h3>Индивидуальная программа</h3>
+                    <p>VIP тур с личным гидом. Максимальный комфорт и гибкий маршрут. Любые пожелания и условия поездки.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="section contact">
+        <div class="container">
+            <h2 class="section-title">Забронировать тур</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                            <circle cx="12" cy="10" r="3"></circle>
+                        </svg>
+                        <div>
+                            <h3>Адрес</h3>
+                            <p><a href="https://yandex.ru/maps/?text=Владикавказ%2C%20Республика%20Северная%20Осетия-Алания" target="_blank" class="address-link">Владикавказ, Республика Северная Осетия-Алания</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                        <div>
+                            <h3>Телефон</h3>
+                            <p>+7 962 744 3337</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                            <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                        <div>
+                            <h3>Email</h3>
+                            <p>info@irontravel.ru</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="bookingForm">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <select name="route" required>
+                            <option value="">Выберите маршрут</option>
+                            <option value="Золотое кольцо Осетии">Золотое кольцо Осетии</option>
+                            <option value="Дигорское ущелье">Дигорское ущелье</option>
+                            <option value="Цейский ледник">Цейский ледник</option>
+                            <option value="Индивидуальная программа">Индивидуальная программа</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Ваше сообщение или дополнительная информация (необязательно)" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 ИРОН ТРЭВЕЛ. Все права защищены.</p>
+                <div class="social-links">
+                    <a href="https://t.me/irontravel_ir" target="_blank" class="social-link" title="Telegram">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/79627443337" target="_blank" class="social-link" title="WhatsApp">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
